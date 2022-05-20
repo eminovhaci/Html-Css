@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    background-image: linear-gradient(rgba(49, 52, 99, 0.4),rgba(50, 46, 97, 0.4)),url(https://themespacial.netlify.app/assets/img/unsplash/26.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+nav{
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 22px 0px;
+}
+ul.menu{
+    display: flex;
+    font-family: sans-serif;
+    position: relative;
+}
+.menu li ul{
+    line-height: 35px;
+    position: absolute;
+    width: 32%;
+    padding: 12px 0px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+ul.hover1 li a{
+    color: rgb(92, 92, 92);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px 20px;
+}
+.hover1,.hover2,.hover3,.hover4{
+    display: none;
+}
+ul.menu li.landing:hover .hover1{
+    display: block;
+}
+ul.menu >li> a{
+    padding: 12px 20px;
+    color: white;
+    transition: 300ms;
+}
+ul.hover2 li a{
+    color: rgb(92, 92, 92);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px 20px;
+}
+ul.menu li.pages:hover .hover2{
+    display: block;
+}
+ul.hover3 li a{
+    color: rgb(92, 92, 92);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px 20px;
+}
+ul.menu li.authentication ul.hover3{
+    width: 38%;
+}
+ul.menu li.authentication:hover .hover3{
+    display: block;
+}
+ul.hover4 li a{
+    color: rgb(92, 92, 92);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px 20px;
+}
+ul.menu li.theme:hover .hover4{
+    display: block;
+}
+ul.menu >li> a:hover{
+    color: rgb(194, 194, 194);
+}
+a.buy{
+    color: white;
+    border: 1px;
+    background-color: #6672e8;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 13px;
+    font-family: sans-serif;
+    transition: 300ms;
+    margin-left: 25px;
+}
+a.buy:hover{
+    background-color: #505799;
+}
+
+nav h1 a{
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 2.5px;
+}
+.buy a{
+    color: white;
+    border: 1px;
+    background-color: #6672e8;
+    padding: 8px 8px;
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    transition: 300ms;
+}
+.buy{
+    margin-right: 15px;
+}
+li i{
+    color: white;
+    margin-left: 5px;
+}
+main{
+    width: 86%;
+    margin: auto;
+    margin-top: 140px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 100;
+    padding-bottom: 240px;
+}
+main h1{
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+main h2{
+    font-size: 58px;
+    margin-bottom: 30px;
+}
+main h5{
+    font-size: 20px;
+    margin-bottom: 50px;
+    width: 65%;
+    line-height: 28px;
+}
+main a{
+    background-color: #18b7ff;
+    border: 1px;
+    padding: 16px 34px;
+    border-radius: 25px;
+    font-size: 14px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: 300ms;
+    letter-spacing: 1px;
+    position: relative;
+    bottom: 0px;
+}
+.buy a:hover{
+    background-color: #505bbd;
+}
+main a:hover{
+    background-color: #1699d6;
+    bottom: 10px;
+}
+.image1{
+    width: 86%;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 10px;
+    color: rgb(39, 39, 75);
+}
+.image1 img{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+.information{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.verify{
+    width: 36%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.verify>*{
+    margin-bottom: 28px;
+}
+.verify i{
+    color: #fff;
+    background-color: #2083FE;
+    border: 1px;
+    padding: 20px;
+    border-radius: 100px;
+    font-size: 20px;
+}
+.verify h1{
+    font-size: 28px;
+    width: 80%;
+}
+.verify p{
+    letter-spacing: 0.5px;
+    color: rgb(138, 135, 135);
+}
+.image2{
+    width: 50%;
+}
+#ikinci{
+    padding: 90px 0px;
+}
+.umumi3{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.possibly{
+    width: 42%;
+    font-family: 'Ubuntu', sans-serif;
+}
+.possibly>*{
+    margin-bottom: 28px;
+}
+.possibly i{
+    color: #fff;
+    background-color: #2083FE;
+    border: 1px;
+    padding: 20px;
+    border-radius: 100px;
+    font-size: 28px;
+}
+.possibly h1{
+    font-size: 30px;
+    width: 60%;
+    line-height: 36px;
+}
+.possibly p{
+    width: 88%;
+    color: rgb(138, 135, 135);
+    line-height: 25px;
+}
+#ucuncu{
+    background-color: #F6F9FC;
+    padding: 80px 0px;
+}
+.umumi4{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+.conversations{
+    width: 40%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.conversations p{
+    color: rgb(138, 135, 135);
+    line-height: 25px;
+}
+.conversations i{
+    color: #fff;
+    background-color: #2083FE;
+    border: 1px;
+    padding: 20px;
+    border-radius: 100px;
+    font-size: 25px;
+}
+.conversations>*{
+    margin-bottom: 28px;
+}
+.conversations h1{
+    font-size: 30px;
+    width: 75%;
+}
+.image4{
+    margin-right: 150px;
+}
+#dorduncu{
+    padding: 90px 0px;
+}

@@ -1,0 +1,496 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://technext.github.io/bingo/images/slider/slider-bg-1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    width: 72%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+ul li{
+    font-size: 13px;
+}
+.main{
+    width: 40%;
+    margin: auto;
+    margin-top: 150px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.main h1{
+    font-size: 50px;
+    margin-bottom: 35px;
+}
+.main p{
+    margin: auto;
+    width: 80%;
+    line-height: 20px;
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+.main a{
+    color: white;
+    text-decoration: none;
+    border: 2px solid #28ABE3;
+    background-color: #28ABE3;
+    padding: 15px 35px;
+    border-radius: 40px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+ul li a:hover{
+    color: #28ABE3;
+}
+ul li a{
+    padding: 25px 18px;
+}
+#offer{
+    width: 100%;
+    height: 130vh;
+}
+.text1{
+    width: 42%;
+    margin: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 120px;
+}
+.text1 h1{
+    margin-bottom: 15px;
+}
+.text1 p{
+    color: grey;
+    margin-bottom: 30px;
+}
+.text1 hr{
+    margin: auto;
+    width: 80px;
+    background-color: #28ABE3;
+    margin-bottom: 50px;
+}
+.umumi1{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.icon1{
+    text-align: center;
+    width: 48%;
+    height: 270px;
+    padding: 30px 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid rgb(168, 168, 168);
+    margin-top: 15px;
+    transition: 200ms;
+}
+.icon1 i{
+    margin-bottom: 10px;
+    color: white;
+    font-size: 25px;
+    border: 2px #28ABE3;
+    background-color: #28ABE3;
+    padding: 15px;
+    border-radius: 100px;
+    transition: 200ms;
+    
+}
+.icon1 h1{
+    margin-bottom: 15px;
+}
+.icons1{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.icon1 p{
+    font-size: 14px;
+    color: grey;
+}
+.icon1:hover{
+    box-shadow: 0px 0px 10px 10px rgb(133, 120, 120);
+}
+.icon1:hover i{
+    background-color: white;
+    color: #28ABE3;
+    box-shadow: -5px 6px 10px rgb(185, 182, 182);
+}
+#agency{
+    width: 100%;
+    height: 100vh;
+    background-color: #F7F7F7;
+}
+.agency{
+    width: 44%;
+    margin: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 100px;
+}
+.agency p{
+    color: grey;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 22px;
+}
+.agency hr{
+    margin: auto;
+    width: 80px;
+    background-color: grey;
+    margin-bottom: 50px;
+}
+.agency h1{
+    font-size: 30px;
+}
+.umumi2{
+    width: 72%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.sekil1{
+    width: 50%;
+
+}
+.ticks1{
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tick1{
+    display: flex;
+    font-size: 14px;
+    color: grey;
+}
+.tick1 i{
+    margin-right: 18px;
+    font-size: 18px;
+}
+.tick1>*{
+    padding-bottom: 15px;
+}
+.ticks1 a{
+    color: white;
+    text-decoration: none;
+    border: 2px solid #28ABE3;
+    background-color: #28ABE3;
+    padding: 12px 32px;
+    border-radius: 40px;
+}
+.learn{
+    margin-top: 30px;
+}
+#together{
+    width: 100%;
+    height: 50vh;
+    background-image: url(https://technext.github.io/bingo/images/call-to-action/call-to-action-bg-2.jpg);
+    background-size: cover;
+}
+.together{
+    width: 38%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.together h1{
+    margin-bottom: 20px;
+}
+.together p{
+    margin-bottom: 50px;
+    font-size: 14px;
+}
+.together a{
+    color: white;
+    text-decoration: none;
+    border: 2px solid #28ABE3;
+    background-color: #28ABE3;
+    padding: 12px 32px;
+    border-radius: 40px;
+}
+#award{
+    width: 100%;
+    height: 55vh;
+}
+.award{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 60px;
+}
+.award p{
+    font-size: 14px;
+    line-height: 20px;
+    color: grey;
+    margin-bottom: 50px;
+}
+.award h1{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.icons2{
+    width: 64%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-right: 20px grey;
+}
+.icon2>*{
+    padding-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.icon2 i{
+    color: #28ABE3;
+    font-size: 28px;
+}
+.icon2::after{
+    content: '';
+    width: 1px;
+    height: 50px;
+    background-color: rgb(179, 179, 179);
+    position: absolute;
+    left: 200px;
+    bottom: 40px;
+}
+.icon2:last-child::after{
+    display: none;
+}
+.icon2{
+    width: 16%;
+    position: relative;
+}
+#info{
+    width: 100%;
+    height: 80vh;
+}
+.info{
+    width: 100%;
+    height: 65%;
+    background-color: #28ABE3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.info1{
+    width: 100%;
+    height: 35%;
+    background-color: white;
+}
+.icon3{
+    width: 56%;
+    text-align: center;
+    margin:auto;
+    padding-top: 100px;
+}
+.icon3 i{
+    margin-bottom: 40px;
+    color: white;
+    font-size: 48px;
+}
+.icon3 p{
+    line-height: 22px;
+    color: white;
+    margin-bottom: 40px;
+}
+.icon3 img{
+    width: 18%;
+    border-radius: 100px;
+}
+.people p{
+    color: black;
+}
+.latest{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    padding-top: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#latest{
+    width: 100%;
+    height: 100vh;
+    background-color: #F6F6F6;
+}
+.latest>*{
+    margin-bottom: 20px;
+}
+.latest hr{
+    margin: auto;
+    width: 80px;
+    background-color: #28ABE3;
+    margin-bottom: 20px;
+}
+.posts{
+    width: 74%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.post{
+    width: 31.5%;
+}
+.post img{
+    width: 100%;
+}
+.postyazi{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 18px;
+    background-color: white;
+    height: 230px;
+}
+.postyazi p{
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.postyazi>*{
+    margin-bottom: 20px;
+}
+.postyazi a{
+    color: white;
+    text-decoration: none;
+    border: 2px solid #28ABE3;
+    background-color: #28ABE3;
+    padding: 12px 28px;
+    border-radius: 40px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px) {
+    ul,.icon2::after{
+        display: none;
+    }
+    .main {
+        width: 85%;
+        margin-top: 50px;
+    }
+    .main p{
+        width: 100%;
+    }
+    .text1 {
+        width: 100%;
+        margin-top: 80px;
+
+    }
+    .text1 p{
+        width: 70%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .text1 h1{
+        font-size: 30px;
+    }
+    .umumi1{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .img1{
+        margin: auto;
+    }
+    .icons1{
+        width: 90%;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .icon1{
+        width: 100%;
+    }
+    #offer{
+        height: 330vh;
+    }
+    .agency{
+        width: 90%;
+    }
+    .agency h1{
+        font-size: 26px;
+    }
+    .agency p{
+        width: 54%;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    #agency{
+        height: 175vh;
+    }
+    .umumi2{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .sekil1 {
+        width: 90%;
+    }
+    .sekil1 img{
+        width: 100%;
+    }
+    .ticks1{
+        width: 98%;
+    }
+    #together{
+        height: 80vh;
+    }
+    .together{
+        width: 90%;
+    }
+    .together h1{
+        line-height: 40px;
+    }
+    .together p{
+        line-height: 22px;
+    }
+    .award{
+        width: 80%;
+    }
+    .award p{
+        width: 55%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .icons2{
+        flex-wrap: wrap;
+    }
+    .icon2{
+        width: 100%;
+        height: 25vh;
+    }
+    #award{
+        height: 170vh;
+    }
+    
+
+
+}
